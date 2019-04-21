@@ -1,5 +1,5 @@
 <?php
-namespace MikrotikAPI\Entity;
+namespace Routerboard\Arjeapi;
 
 use Routerboard\Arjeapi\RouterOs;
 
