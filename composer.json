@@ -1,0 +1,21 @@
+{
+    "name": "routerboard/arjeapi",
+    "description": "Router OS Laravel Package By Temo Arjevanidze",
+	"keywords": ["laravel", "mikrotik", "api"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Temo Arjevanidze",
+            "email": "arjevanidzetemo@gmail.com",
+	    "homepage": "http://sitestudio.ge",
+            "role": "Developer"
+        }
+    ],
+	
+    "require": {},
+	 "autoload": {
+            "psr-4": {
+                "Routerboard\\Arjeapi\\": "src/"
+            }
+        }
+}
