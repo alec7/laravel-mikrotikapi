@@ -3,11 +3,6 @@
     "description": "Router OS Laravel Package By Temo Arjevanidze",
 	"keywords": ["laravel", "mikrotik", "api"],
     "license": "MIT",
-	"require": {
-        "php": "^7.2",
-        "php": "^7.1",
-		"php": "^7.0",
-    },
     "authors": [
         {
             "name": "Temo Arjevanidze",
@@ -17,7 +12,11 @@
         }
     ],
 	
-    "require": {},
+    "require": {
+	 "php": "^7.2",
+     "php": "^7.1",
+     "php": "^7.0",
+	},
 	 "autoload": {
             "psr-4": {
                 "Routerboard\\Arjeapi\\": "src/"
