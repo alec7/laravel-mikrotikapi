@@ -14,7 +14,7 @@
 <pre><b>Add Namespace Class Your Controller:</b></pre>
 <pre><code>use Routerboard\Arjeapi\RouterOs;</code> </pre>
 <pre>Add this code to your function</pre>
-
+<pre>
 <code>
 $ArjeAPI = new RouterOs();
 
@@ -30,4 +30,5 @@ if ($ArjeAPI->connect('Your Router Ip Address', 'Login', 'Password')) {
    return $GetInterface;
   
 }
+</pre>
 <code>
