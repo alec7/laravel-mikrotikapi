@@ -13,3 +13,21 @@
 
 <pre><b>Add Namespace Class Your Controller:</b></pre>
 <pre><code>use Routerboard\Arjeapi\RouterOs;</code> </pre>
+<pre>Add this code to your function</pre>
+
+<code>
+$ArjeAPI = new RouterOs();
+
+$ArjeAPI->debug = false;
+
+if ($ArjeAPI->connect('Your Router Ip Address', 'Login', 'Password')) {
+
+   $ArjeAPI->write('/interface/getall');
+
+   $READ = $ArjeAPI->read(false);
+   $GetInterface = $ArjeAPI->parseResponse($READ);
+    
+   return $GetInterface;
+  
+}
+<code>
