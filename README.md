@@ -13,7 +13,7 @@
 
 <pre><b>Add Namespace Class Your Controller:</b></pre>
 <pre><code>use Routerboard\Arjeapi\RouterOs;</code> </pre>
-<pre>Add this code to your function</pre>
+<pre><b>Add this code to your function</b></pre>
 <pre>
 <code>
 $ArjeAPI = new RouterOs();
