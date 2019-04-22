@@ -13,7 +13,7 @@
 
 <pre><b>Add Namespace Class Your Controller:</b></pre>
 <pre><code>use Routerboard\Arjeapi\RouterOs;</code> </pre>
-<pre><b>Add this code to your function</b></pre>
+<pre><b>Get Mikrotik  Interfaces Lists. Add this code to your function:</b></pre>
 <pre>
 <code>
 $ArjeAPI = new RouterOs();
