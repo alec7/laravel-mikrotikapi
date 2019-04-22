@@ -3,10 +3,10 @@
     "description": "Router OS Laravel Package By Temo Arjevanidze",
 	"keywords": ["laravel", "mikrotik", "api"],
     "license": "MIT",
-	"require": {
-        "php": "^7.2",
-        "php": "^7.1",
-		"php": "^7.0",
+    "require": {
+      "php": "^7.2",
+      "php": "^7.1",
+      "php": "^7.0",
     },
     "authors": [
         {
