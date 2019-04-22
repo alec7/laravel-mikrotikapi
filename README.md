@@ -30,5 +30,5 @@ if ($ArjeAPI->connect('Your Router Ip Address', 'Login', 'Password')) {
    return $GetInterface;
   
 }
+</code>
 </pre>
-<code>
